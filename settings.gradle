@@ -1,0 +1,2 @@
+include ':virtualjoystick'
+project(':virtualjoystick').projectDir = new File(settingsDir, 'libs/virtual-joystick-android/virtualjoystick')

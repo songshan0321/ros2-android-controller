@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/parent"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <io.github.controlwear.virtual.joystick.android.JoystickView xmlns:custom="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/joystickView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        custom:JV_backgroundColor="#494949"
+        custom:JV_backgroundSizeRatio="50%"
+        custom:JV_borderColor="#000000"
+        custom:JV_borderWidth="4dp"
+        custom:JV_buttonColor="#ff0400"
+        custom:JV_buttonSizeRatio="25%"
+        custom:JV_fixedCenter="false" />
+
+    <TextView
+        android:id="@+id/directionView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:text="0,0 , 0.0" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/joystickView"
+        android:layout_centerHorizontal="true"
+        android:text="  Linear , Angular" />
+
+    <Button
+        android:id="@+id/connectButton"
+        style="@android:style/Widget.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="29dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="181dp"
+        android:background="#ff5a58"
+        android:text="RECONNECT" />
+
+    <SeekBar
+        android:id="@+id/maxSpeedBar"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/joystickView"
+        android:layout_centerHorizontal="true"
+        android:max="100"
+        android:progress="50" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="69dp"
+        android:text="Speed Limit:" />
+
+    <TextView
+        android:id="@+id/limitView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:text="50" />
+
+    <EditText
+        android:id="@+id/topicText"
+        android:layout_width="153dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:contentDescription="topic to be published"
+        android:ems="10"
+        android:hint="cmd_vel"
+        android:inputType="textPersonName"
+        android:text="cmd_vel"
+        android:textAppearance="@android:style/TextAppearance.Material.Small" />
+
+    <Button
+        android:id="@+id/inputButton"
+        android:layout_width="69dp"
+        android:layout_height="34dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Enter"
+        android:textAppearance="@android:style/TextAppearance.Material.Small" />
+
+</RelativeLayout>

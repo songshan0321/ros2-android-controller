@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/home/rmf/ros2_android_ws/install_isolated/geometry_msgs/share/geometry_msgs/java/geometry_msgs_messages.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e6c52c715ad77f0a2e2c4f3f854b0c2b8d5b1517">
+        <dex dex="/home/rmf/github/ros2-android-controller/build/intermediates/pre-dexed/debug/geometry_msgs_messages_8255f23f8a67838feffde3f804517e2832b936d6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/rmf/ros2_android_ws/install_isolated/std_msgs/share/std_msgs/java/std_msgs_messages.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2e46868e4d6a54f447ae9d76717937ccf117c6bf">
+        <dex dex="/home/rmf/github/ros2-android-controller/build/intermediates/pre-dexed/debug/std_msgs_messages_09d3dde536c4ae029b516665fb17c2af1e3a2b5b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/rmf/github/ros2-android-controller/libs/virtual-joystick-android/virtualjoystick/build/intermediates/bundles/default/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3ea6b83540218e034149e9f1314a3fc5db64c2fc">
+        <dex dex="/home/rmf/github/ros2-android-controller/build/intermediates/pre-dexed/debug/classes_e65e7b47a28e320c8e6172271d972b76302f6a48.jar" />
+    </item>
+
+</items>

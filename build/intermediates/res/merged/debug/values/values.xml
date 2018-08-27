@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="JoystickView"><attr format="reference" name="JV_buttonImage"/><attr format="color" name="JV_buttonColor"/><attr format="color" name="JV_borderColor"/><attr format="color" name="JV_backgroundColor"/><attr format="dimension" name="JV_borderWidth"/><attr format="boolean" name="JV_fixedCenter"/><attr format="boolean" name="JV_autoReCenterButton"/><attr format="boolean" name="JV_buttonStickToBorder"/><attr format="boolean" name="JV_enabled"/><attr format="fraction" name="JV_buttonSizeRatio"/><attr format="fraction" name="JV_backgroundSizeRatio"/><attr name="JV_buttonDirection">
+            <flag name="horizontal" value="-1"/>
+            <flag name="both" value="0"/>
+            <flag name="vertical" value="1"/>
+
+        </attr></declare-styleable>
+    <string name="app_name">RMFTool</string>
+</resources>
