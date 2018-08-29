@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Mon Aug 27 17:56:54 MYT 2018
+#Wed Aug 29 11:20:42 MYT 2018
 210.set=NATIVE_RESOURCE
 14.set=NATIVE_RESOURCE
 180.file=/home/rmf/github/ros2-android-controller/build/intermediates/transforms/stripDebugSymbol/debug/folders/2000/1f/main/lib/armeabi-v7a/libgeometry_msgs_msg__point__jni__rosidl_typesupport_c.so

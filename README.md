@@ -1,6 +1,10 @@
 # ros2-android-controller
 
-This is a short tutorial for developing Android apps for ROS2 Java bindings based on [ros2_java](https://github.com/esteve/ros2_java.git) and [ros2_android_examples](https://github.com/esteve/ros2_android_examples.git).
+An Android app to control ROS2 robot, which built on top of  [ros2_java](https://github.com/esteve/ros2_java.git) and [ros2_android_examples](https://github.com/esteve/ros2_android_examples.git).
+
+<img src="pics/ros2-android.jpg" width="300"><img src="pics/GUI.jpg" width="300">
+
+
 
 ------
 
